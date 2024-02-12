@@ -65,7 +65,7 @@ export function Cart({ cartItems, onAdd, onRemove, onConfirmOrder, selectedTable
               <ProductContainer>
                 <Image
                   source={{
-                    uri: `http://192.168.1.7:3001/uploads/${cartItem.product.imagePath}`,
+                    uri: `http://192.168.1.5:3001/uploads/${cartItem.product.imagePath}`,
                   }}
                 />
 
